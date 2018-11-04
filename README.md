@@ -11,6 +11,16 @@
 This repository contains the block reward contract interface which can be used with
 [parity](https://github.com/paritytech/parity) to determine block rewards.
 
+## Compile & Deployment
+
+- Install `yarn` & `jq`
+- Clone https://github.com/tao-foundation/block-reward
+- `yarn install`
+- `yarn compile`
+- `cat build/contracts/TEOBlockReward.json | jq .deployedBytecode`
+
+## Specification
+
 The block reward contract has the following interface:
 
 ```solidity
