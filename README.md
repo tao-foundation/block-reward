@@ -9,7 +9,7 @@
 [coveralls-url]: https://coveralls.io/github/parity-contracts/block-reward?branch=master
 
 This repository contains the block reward contract interface which can be used with
-[parity](https://github.com/paritytech/parity) to determine block rewards.
+[parity-ethereum](https://github.com/paritytech/parity-ethereum) to determine block rewards.
 
 ## Compile & Deployment
 
